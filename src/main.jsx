@@ -16,7 +16,7 @@ import Line from './Pages/Line/Line.jsx';
 import Pie from './Pages/Pie/Pie.jsx';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/React-Dashboard'>
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Dashboard />} />
