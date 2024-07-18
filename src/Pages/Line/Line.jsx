@@ -380,35 +380,35 @@ export default function Line({ isDashboard = false }) {
                   "fontSize": 13,
                   "fill": theme.palette.text.primary,
                   "outlineWidth": 2,
-                  "outlineColor": theme.palette.primary,
+                  "outlineColor": '',
                   "outlineOpacity": 1
                 },
                 "link": {
                   "stroke": "#000000",
                   "strokeWidth": 1,
                   "outlineWidth": 2,
-                  "outlineColor": theme.palette.primary,
+                  "outlineColor": '',
                   "outlineOpacity": 1
                 },
                 "outline": {
                   "stroke": "#000000",
                   "strokeWidth": 2,
                   "outlineWidth": 2,
-                  "outlineColor": theme.palette.primary,
+                  "outlineColor": '',
                   "outlineOpacity": 1
                 },
                 "symbol": {
                   "fill": "#000000",
                   "outlineWidth": 2,
-                  "outlineColor": theme.palette.primary,
+                  "outlineColor": '',
                   "outlineOpacity": 1
                 }
               },
               "tooltip": {
                 "wrapper": {},
                 "container": {
-                  "background": theme.palette.primary,
-                  "color": theme.palette.text.primary,
+                  "background": '',
+                  "color": '',
                   "fontSize": 12
                 },
                 "basic": {},
