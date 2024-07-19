@@ -10,7 +10,7 @@ import Calendar from './Pages/Calendar/Calendar.jsx';
 import Contacts from './Pages/Contacts/Contacts.jsx';
 import FAQ from './Pages/FAQ/FAQ.jsx';
 import Form from './Pages/Form/Form.jsx';
-// import Geography from './Pages/Geography/Geography.jsx'
+import Geography from './Pages/Geography/Geography.jsx'
 import Invoices from './Pages/Invoices/Invoices.jsx';
 import Line from './Pages/Line/Line.jsx';
 import Pie from './Pages/Pie/Pie.jsx';
@@ -29,7 +29,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/form" element={<Form />} />
           <Route path="/line" element={<Line />} />
           <Route path="/pie" element={<Pie />} />
-          {/* <Route path="/geography" element={<Geography />} /> */}
+          <Route path="/geography" element={<Geography />} />
         </Route>
       </Routes>
     </BrowserRouter>
