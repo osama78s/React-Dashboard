@@ -172,7 +172,7 @@ export default function Pie({ IsDashboard = false }) {
             ]
           }}
           arcLinkLabelsSkipAngle={10}
-          arcLinkLabelsTextColor= {''}
+          arcLinkLabelsTextColor= {theme.palette.text.primary}
           arcLinkLabelsThickness={2}
           arcLinkLabelsColor={{ from: 'color' }}
           arcLabelsSkipAngle={10}
@@ -269,7 +269,7 @@ export default function Pie({ IsDashboard = false }) {
               itemsSpacing: 0,
               itemWidth: 100,
               itemHeight: 18,
-              itemTextColor: '',
+              itemTextColor: theme.palette.text.primary,
               itemDirection: 'left-to-right',
               itemOpacity: 1,
               symbolSize: 18,
@@ -278,7 +278,7 @@ export default function Pie({ IsDashboard = false }) {
                 {
                   on: 'hover',
                   style: {
-                    itemTextColor: ''
+                    itemTextColor: theme.palette.text.primary
                   }
                 }
               ]

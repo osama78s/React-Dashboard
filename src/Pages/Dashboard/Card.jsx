@@ -55,33 +55,33 @@ export const Card = ({ icon, title, subtitle, increase, scheme }) => {
                                 {
                                     "text": {
                                         "fontSize": 11,
-                                        "fill": '',
+                                        "fill": theme.palette.text.primary,
                                         "outlineWidth": 0,
                                         "outlineColor": "transparent"
                                     },
                                     "axis": {
                                         "domain": {
                                             "line": {
-                                                "stroke": '',
+                                                "stroke": theme.palette.text.primary,
                                                 "strokeWidth": 1
                                             }
                                         },
                                         "legend": {
                                             "text": {
                                                 "fontSize": 12,
-                                                "fill": '',
+                                                "fill": theme.palette.text.primary,
                                                 "outlineWidth": 0,
                                                 "outlineColor": "transparent"
                                             }
                                         },
                                         "ticks": {
                                             "line": {
-                                                "stroke": '',
+                                                "stroke": theme.palette.text.primary,
                                                 "strokeWidth": 1
                                             },
                                             "text": {
                                                 "fontSize": 11,
-                                                "fill": '',
+                                                "fill": theme.palette.text.primary,
                                                 "outlineWidth": 0,
                                                 "outlineColor": "transparent"
                                             }
@@ -97,14 +97,14 @@ export const Card = ({ icon, title, subtitle, increase, scheme }) => {
                                         "title": {
                                             "text": {
                                                 "fontSize": 11,
-                                                "fill": '',
+                                                "fill": theme.palette.text.primary,
                                                 "outlineWidth": 0,
                                                 "outlineColor": "transparent"
                                             }
                                         },
                                         "text": {
                                             "fontSize": 11,
-                                            "fill": '',
+                                            "fill": theme.palette.text.primary,
                                             "outlineWidth": 0,
                                             "outlineColor": "transparent"
                                         },
@@ -112,7 +112,7 @@ export const Card = ({ icon, title, subtitle, increase, scheme }) => {
                                             "line": {},
                                             "text": {
                                                 "fontSize": 10,
-                                                "fill": '',
+                                                "fill": theme.palette.text.primary,
                                                 "outlineWidth": 0,
                                                 "outlineColor": "transparent"
                                             }
@@ -121,7 +121,7 @@ export const Card = ({ icon, title, subtitle, increase, scheme }) => {
                                     "annotations": {
                                         "text": {
                                             "fontSize": 13,
-                                            "fill": '',
+                                            "fill": theme.palette.text.primary,
                                             "outlineWidth": 2,
                                             "outlineColor": "#ffffff",
                                             "outlineOpacity": 1

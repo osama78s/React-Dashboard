@@ -51,7 +51,7 @@ export const Row3 = () => {
     </Paper>
 
     <Paper sx={{ width: '33%', flexGrow: 1 ,minWidth: '400px' }}>
-      <Geography IsDashboard={true}/>
+      {/* <Geography IsDashboard={true}/> */}
     </Paper>
 
     </Stack>

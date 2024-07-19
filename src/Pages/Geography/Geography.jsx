@@ -708,37 +708,38 @@ export default function Geography({ IsDashboard = false }) {
             )}
             <Box sx={{ height: IsDashboard ? '450px' : '75vh' }}>
                 <ResponsiveChoropleth
+                graticuleLineWidth={1}
                     theme={
                         {
                             "text": {
                                 "fontSize": 11,
-                                "fill": '',
+                                "fill": theme.palette.text.primary,
                                 "outlineWidth": 0,
                                 "outlineColor": "transparent"
                             },
                             "axis": {
                                 "domain": {
                                     "line": {
-                                        "stroke": '',
+                                        "stroke": theme.palette.text.primary,
                                         "strokeWidth": 1
                                     }
                                 },
                                 "legend": {
                                     "text": {
                                         "fontSize": 12,
-                                        "fill": '',
+                                        "fill": theme.palette.text.primary,
                                         "outlineWidth": 0,
                                         "outlineColor": "transparent"
                                     }
                                 },
                                 "ticks": {
                                     "line": {
-                                        "stroke": '',
+                                        "stroke": theme.palette.text.primary,
                                         "strokeWidth": 1
                                     },
                                     "text": {
                                         "fontSize": 11,
-                                        "fill": '',
+                                        "fill": theme.palette.text.primary,
                                         "outlineWidth": 0,
                                         "outlineColor": "transparent"
                                     }
@@ -754,14 +755,14 @@ export default function Geography({ IsDashboard = false }) {
                                 "title": {
                                     "text": {
                                         "fontSize": 11,
-                                        "fill": '',
+                                        "fill": theme.palette.text.primary,
                                         "outlineWidth": 0,
                                         "outlineColor": "transparent"
                                     }
                                 },
                                 "text": {
                                     "fontSize": 11,
-                                    "fill": '',
+                                    "fill": theme.palette.text.primary,
                                     "outlineWidth": 0,
                                     "outlineColor": "transparent"
                                 },
@@ -769,7 +770,7 @@ export default function Geography({ IsDashboard = false }) {
                                     "line": {},
                                     "text": {
                                         "fontSize": 10,
-                                        "fill": '',
+                                        "fill": theme.palette.text.primary,
                                         "outlineWidth": 0,
                                         "outlineColor": "transparent"
                                     }
@@ -778,7 +779,7 @@ export default function Geography({ IsDashboard = false }) {
                             "annotations": {
                                 "text": {
                                     "fontSize": 13,
-                                    "fill": '',
+                                    "fill": theme.palette.text.primary,
                                     "outlineWidth": 2,
                                     "outlineColor": "#ffffff",
                                     "outlineOpacity": 1
@@ -808,7 +809,7 @@ export default function Geography({ IsDashboard = false }) {
                                 "wrapper": {},
                                 "container": {
                                     "background": "black",
-                                    "color": '',
+                                    "color": theme.palette.text.primary,
                                     "fontSize": 12
                                 },
                                 "basic": {},
@@ -901,7 +902,7 @@ export default function Geography({ IsDashboard = false }) {
                             itemWidth: 94,
                             itemHeight: 18,
                             itemDirection: 'left-to-right',
-                            itemTextColor: '',
+                            itemTextColor: theme.palette.text.primary,
                             itemOpacity: 0.85,
                             symbolSize: 18,
                             effects: [
