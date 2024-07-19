@@ -114,33 +114,33 @@ export default function Bar({ IsDashboard = false }) {
             {
               "text": {
                 "fontSize": 11,
-                "fill": theme.palette.text.primary,
+                "fill": '',
                 "outlineWidth": 0,
                 "outlineColor": "transparent"
               },
               "axis": {
                 "domain": {
                   "line": {
-                    "stroke": theme.palette.text.primary,
+                    "stroke": '',
                     "strokeWidth": 1
                   }
                 },
                 "legend": {
                   "text": {
                     "fontSize": 12,
-                    "fill": theme.palette.text.primary,
+                    "fill": '',
                     "outlineWidth": 0,
                     "outlineColor": "transparent"
                   }
                 },
                 "ticks": {
                   "line": {
-                    "stroke": theme.palette.text.primary,
+                    "stroke": '',
                     "strokeWidth": 1
                   },
                   "text": {
                     "fontSize": 11,
-                    "fill": theme.palette.text.primary,
+                    "fill": '',
                     "outlineWidth": 0,
                     "outlineColor": "transparent"
                   }
@@ -156,14 +156,14 @@ export default function Bar({ IsDashboard = false }) {
                 "title": {
                   "text": {
                     "fontSize": 11,
-                    "fill": theme.palette.text.primary,
+                    "fill": '',
                     "outlineWidth": 0,
                     "outlineColor": "transparent"
                   }
                 },
                 "text": {
                   "fontSize": 11,
-                  "fill": theme.palette.text.primary,
+                  "fill": '',
                   "outlineWidth": 0,
                   "outlineColor": "transparent"
                 },
@@ -171,7 +171,7 @@ export default function Bar({ IsDashboard = false }) {
                   "line": {},
                   "text": {
                     "fontSize": 10,
-                    "fill": theme.palette.text.primary,
+                    "fill": '',
                     "outlineWidth": 0,
                     "outlineColor": "transparent"
                   }
@@ -180,7 +180,7 @@ export default function Bar({ IsDashboard = false }) {
               "annotations": {
                 "text": {
                   "fontSize": 13,
-                  "fill": theme.palette.text.primary,
+                  "fill": '',
                   "outlineWidth": 2,
                   "outlineColor": "#ffffff",
                   "outlineOpacity": 1

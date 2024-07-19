@@ -712,33 +712,33 @@ export default function Geography({ IsDashboard = false }) {
                         {
                             "text": {
                                 "fontSize": 11,
-                                "fill": theme.palette.text.primary,
+                                "fill": '',
                                 "outlineWidth": 0,
                                 "outlineColor": "transparent"
                             },
                             "axis": {
                                 "domain": {
                                     "line": {
-                                        "stroke": theme.palette.text.primary,
+                                        "stroke": '',
                                         "strokeWidth": 1
                                     }
                                 },
                                 "legend": {
                                     "text": {
                                         "fontSize": 12,
-                                        "fill": theme.palette.text.primary,
+                                        "fill": '',
                                         "outlineWidth": 0,
                                         "outlineColor": "transparent"
                                     }
                                 },
                                 "ticks": {
                                     "line": {
-                                        "stroke": theme.palette.text.primary,
+                                        "stroke": '',
                                         "strokeWidth": 1
                                     },
                                     "text": {
                                         "fontSize": 11,
-                                        "fill": theme.palette.text.primary,
+                                        "fill": '',
                                         "outlineWidth": 0,
                                         "outlineColor": "transparent"
                                     }
@@ -754,14 +754,14 @@ export default function Geography({ IsDashboard = false }) {
                                 "title": {
                                     "text": {
                                         "fontSize": 11,
-                                        "fill": theme.palette.text.primary,
+                                        "fill": '',
                                         "outlineWidth": 0,
                                         "outlineColor": "transparent"
                                     }
                                 },
                                 "text": {
                                     "fontSize": 11,
-                                    "fill": theme.palette.text.primary,
+                                    "fill": '',
                                     "outlineWidth": 0,
                                     "outlineColor": "transparent"
                                 },
@@ -769,7 +769,7 @@ export default function Geography({ IsDashboard = false }) {
                                     "line": {},
                                     "text": {
                                         "fontSize": 10,
-                                        "fill": theme.palette.text.primary,
+                                        "fill": '',
                                         "outlineWidth": 0,
                                         "outlineColor": "transparent"
                                     }
@@ -778,7 +778,7 @@ export default function Geography({ IsDashboard = false }) {
                             "annotations": {
                                 "text": {
                                     "fontSize": 13,
-                                    "fill": theme.palette.text.primary,
+                                    "fill": '',
                                     "outlineWidth": 2,
                                     "outlineColor": "#ffffff",
                                     "outlineOpacity": 1
@@ -808,7 +808,7 @@ export default function Geography({ IsDashboard = false }) {
                                 "wrapper": {},
                                 "container": {
                                     "background": "black",
-                                    "color": theme.palette.text.primary,
+                                    "color": '',
                                     "fontSize": 12
                                 },
                                 "basic": {},
@@ -901,7 +901,7 @@ export default function Geography({ IsDashboard = false }) {
                             itemWidth: 94,
                             itemHeight: 18,
                             itemDirection: 'left-to-right',
-                            itemTextColor: theme.palette.text.primary,
+                            itemTextColor: '',
                             itemOpacity: 0.85,
                             symbolSize: 18,
                             effects: [
